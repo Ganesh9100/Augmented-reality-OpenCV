@@ -1,0 +1,3 @@
+sudo fuser -v /dev/nvidia*    -- show all processes using our GPU memory
+
+sudo kill -9 <process id>
